@@ -70,7 +70,7 @@ body{
     background-color:#fff
 }
 #back-to-top-btn{
-    z-index:1000;
+    z-index:10000;
     display:none;
     position:fixed;
     bottom:20px;
@@ -87,7 +87,7 @@ body{
     transition-timing-function:ease-in-out;
     transition-property:background,color;
     transform:translateY(7px);
-    transition:.5s
+    transition:.4s
 }
 #back-to-top-btn:focus,#back-to-top-btn:hover{
     background:0 0;
@@ -122,7 +122,7 @@ body{
     box-shadow:none
 }
 .light .form-control{
-    background-color:#fff;
+    background-color:#ffff;
     border-color:#eee;
     outline:0;
     box-shadow:none
@@ -546,5 +546,5 @@ body{
     width:60px
 }
 #myBtn:hover{
-    background-color:#555
+    background-color:#5555
 }
