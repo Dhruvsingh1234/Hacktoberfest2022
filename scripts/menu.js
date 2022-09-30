@@ -35,7 +35,7 @@ const menu = {
 
 }
 
-function buildMenuHTML (obj = {}) {
+const buildMenuHTML = (obj = {})=>{
   let html = ''
   let path = window.location.pathname.split('/')
   let currentPage = path[path.length - 1] === '' ? '/' : path[path.length - 1]
@@ -68,7 +68,7 @@ function buildMenuHTML (obj = {}) {
   document.getElementById('menu').innerHTML = html
 }
 
-function buildMenu () {
+const buildMenu= ()=>{
   buildMenuHTML(menu)
 }
 
