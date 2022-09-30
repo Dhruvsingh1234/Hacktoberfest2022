@@ -1,7 +1,7 @@
 window.onscroll = scrollFunc;
 var scrollButton = document.getElementById('backToTop')
 
-function scrollFunc() {
+const scrollFunc = ()=>{
     if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
         scrollButton.style.display = "block"
     } else {
@@ -20,7 +20,7 @@ scrollButton.onmousedown = function() {
 scrollButton.onmouseup = function(){
     scrollButton.classList.remove("mousedown")
 }
-function scrollTo(element, to, duration, callback) {
+const scrollTo = (element, to, duration, callback)>{
     var start = element.scrollTop,
         change = (to - start),
         currentTime = 0,
