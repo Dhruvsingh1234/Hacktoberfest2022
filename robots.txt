@@ -1,4 +1,7 @@
 # Robots.txt
 
 User-agent: *
+goat
+boat
+firebae
 Allow: /
